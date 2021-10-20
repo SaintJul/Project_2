@@ -1,8 +1,140 @@
 {
-    "Art":[
-        {
-            "id":1,
-            "piece":"https://pbs.twimg.com/media/FCEOq9UX0A8VZzA?format=jpg&name=large"
+  "Art": [
+    {
+      "id": 1,
+      "piece": "https://pbs.twimg.com/media/FCEOq9UX0A8VZzA?format=jpg&name=large"
+    },
+    {
+      "Art": {
+        "id": {
+          "user": "Hopefully"
+        },
+        "piece": {
+          "art": "This works"
         }
-    ]
+      },
+      "id": 2
+    },
+    {
+      "Art": {
+        "id": {
+          "user": "Hopefully"
+        },
+        "piece": {
+          "art": "This works"
+        }
+      },
+      "id": 3
+    },
+    {
+      "Art": {
+        "id": {
+          "user": "Hopefullys"
+        },
+        "piece": {
+          "art": "This works"
+        }
+      },
+      "id": 4
+    },
+    {
+      "Art": {
+        "id": {
+          "user": "Hopefullyss"
+        },
+        "piece": {
+          "art": "This works"
+        }
+      },
+      "id": 5
+    },
+    {
+      "Art": {
+        "id": {
+          "user": "Hopefullysss"
+        },
+        "piece": {
+          "art": "This works"
+        }
+      },
+      "id": 6
+    },
+    {
+      "Art": {
+        "id": {
+          "user": "Hopefullysssf"
+        },
+        "piece": {
+          "art": "This works"
+        }
+      },
+      "id": 7
+    },
+    {
+      "Art": {
+        "id": {
+          "user": "Hopefullysssfd"
+        },
+        "piece": {
+          "art": "This works"
+        }
+      },
+      "id": 8
+    },
+    {
+      "Art": {
+        "id": {
+          "user": "Hopefullysssfd"
+        },
+        "piece": {
+          "art": "This worksf"
+        }
+      },
+      "id": 9
+    },
+    {
+      "Art": {
+        "id": {
+          "user": ""
+        },
+        "piece": {
+          "art": ""
+        }
+      },
+      "id": 10
+    },
+    {
+      "Art": {
+        "id": {
+          "user": "please"
+        },
+        "piece": {
+          "art": ""
+        }
+      },
+      "id": 11
+    },
+    {
+      "Art": {
+        "id": {
+          "user": "please"
+        },
+        "piece": {
+          "art": "This works"
+        }
+      },
+      "id": 12
+    },
+    {
+      "Art": {
+        "id": {
+          "user": "please"
+        },
+        "piece": {
+          "art": "This works"
+        }
+      },
+      "id": 13
+    }
+  ]
 }

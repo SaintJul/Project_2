@@ -2,7 +2,6 @@ import React,{useEffect,useState} from 'react'
 import Post from './Post'
 
 
-
 function FetchGet(){
   const [pic, setPic] = useState("")
     useEffect(()=>{
