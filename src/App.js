@@ -1,24 +1,40 @@
-import logo from './logo.svg';
+import React from 'react'
 import './App.css';
+import Header from './components/Header'
+import Statement from './components/Statement'
+import FetchGet from './components/FetchGet'
+import UserInfo from './components/UserInfo'
+
+
+function UserInfo(){
+   console.log("FetchPost")
+   
+  
+  return(
+    <React.Fragment>
+    <h1>Post an Art piece you'd like to add</h1>
+    <form onSubmit = {}>      
+      <label >Username:</label>
+      <input type  ="text" name = "user"/>     
+      
+      <label >    Link:</label>
+      <input name = "link"/>
+
+      <input value = "Submit" type ="submit"/>    
+    </form>
+   </React.Fragment>
+   
+  )
+}
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <React.Fragment>
+      <Header/>
+      <Statement/>
+      <FetchGet/>
+      <UserInfo/>      
+    </React.Fragment>
   );
 }
 
