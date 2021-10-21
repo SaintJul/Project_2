@@ -1,30 +1,10 @@
-import React,{useState, useEffect} from 'react'
+import React,{useState} from 'react'
 
-function FetchPost({art,user}){
-    const artObj = {
-        Art: {
-            id: {user},
-            piece: {art}
-        }
-    }
-
-    useEffect(()=>{
-        fetch("http://localhost:4000/Art",{
-            method:"POST",
-            headers:{
-                "Content-Type":"application/json"
-            },
-            body:JSON.stringify(artObj)
-        })
-        .then(r=>r.json())
-        .then(data=> console.log(data))
-    })
-   
-
+function UserPosts({form}){
+    console.log(`${form} ++++`)
     return (
-        <h1>please work</h1>
+        <h3>UserPosts works</h3>
     )
-
 }
 
 function UserInfo(){
@@ -35,14 +15,28 @@ function UserInfo(){
     })
 
     function handleSubmit(event){
-         event.preventDefault(); 
-         //console.log(form);        
-        //console.log(`${art} , ${user} is working`)
-        
-       
-    }
+       event.preventDefault(); 
+       const art = form.link
+       const user =form.user
 
+       
+        const artObj = {           
+                id: user,
+                piece: art
+        }
     
+       
+        fetch("http://localhost:4000/Art",{
+            method:"POST",
+            headers:{
+                "Content-Type":"application/json"
+            },
+            body:JSON.stringify(artObj)
+        })
+        .then(r=>r.json())
+        .then(data=> console.log(data))    
+        
+    }  
 
     function handleChange(event){
         const name = event.target.name
@@ -51,15 +45,16 @@ function UserInfo(){
         setForm({...form,
         [name]:value
         })
+        
     }
 
-    
-    //<FetchPost art = {form.link} user ={form.user}/>
+    //console.log(form)
+   
    
    return(
      <React.Fragment>
      <h1>Post an Art piece you'd like to add</h1>
-     <form onSubmit = {handleSubmit, <FetchPost art = {form.link} user ={form.user}/>}>      
+     <form onSubmit = {handleSubmit}>      
        <label >Username:</label>
        <input type  ="text" name = "user" id = "name" value ={form.user} onChange = {handleChange}/>     
        
@@ -68,7 +63,7 @@ function UserInfo(){
  
        <input value = "Submit" type ="submit"/>    
      </form>
-     
+     <UserPosts form = {form}/>
     </React.Fragment>
     
    )
