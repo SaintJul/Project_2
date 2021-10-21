@@ -1,11 +1,7 @@
 import React,{useState} from 'react'
+import UserPosts from './UserPosts'
 
-function UserPosts({form}){
-    console.log(`${form} ++++`)
-    return (
-        <h3>UserPosts works</h3>
-    )
-}
+
 
 function UserInfo(){
 
@@ -34,7 +30,7 @@ function UserInfo(){
             body:JSON.stringify(artObj)
         })
         .then(r=>r.json())
-        .then(data=> console.log(data))    
+        .then(data=> console.log(data)) 
         
     }  
 
@@ -63,7 +59,7 @@ function UserInfo(){
  
        <input value = "Submit" type ="submit"/>    
      </form>
-     <UserPosts form = {form}/>
+     <UserPosts user = {form.user} link = {form.link}/>
     </React.Fragment>
     
    )
