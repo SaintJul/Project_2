@@ -4,28 +4,27 @@ import Header from './Components/Header'
 import Statement from './Components/Statement'
 import FetchGet from './Components/FetchGet'
 import UserInfo from './Components/UserInfo'
-import {Switch, BrowserRouter} from "react-router-dom"
+import {Switch, Route} from "react-router-dom"
 
 
 
 
 
 function App() {
-  const [page,setPage]  = useState("/home")
+  const [page,setPage]  = useState("/")
+
   return (
     <React.Fragment> 
-      <Switch>
-        <BrowserRouter page = "/home">
-          <Header changePage = {setPage}/>
-        </BrowserRouter>
-        <BrowserRouter page = "/about">
-          <Statement/>
-        </BrowserRouter>
-        <BrowserRouter page = "/post">
-          <FetchGet/>
-          <UserInfo/> 
-        </BrowserRouter>        
-      </Switch>     
+      <Header changePage = {setPage}/>
+        <Switch>          
+          <Route path = "/about">
+            <Statement/>
+          </Route>
+          <Route path = "/post">
+            <FetchGet/>
+            <UserInfo/> 
+          </Route>  
+        </Switch>     
     </React.Fragment>
   );
 }

@@ -2,7 +2,7 @@ import React from 'react'
 
 function Statement(){
     return(
-      <div className = "">
+      <div id = "about">
         <p id= "purpose"> IMPORTANT MESSAGES</p>
       </div>
     )

@@ -1,14 +1,21 @@
 import React from 'react'
 
 
-function Header(){
+function Header({changePage}){
+
+  function handleClick(event){
+    event.preventDefault()
+    changePage(event.target.pathname)
+  }
+
+
     return(
       <React.Fragment>
-        <div id = "home">
-          <a href  ="/home">Home</a>
-          <a href = "/about">About</a>
-          <a href = "/post">Post</a>
-        </div>
+        <nav id = "home">
+          <a onClick = {handleClick} href  ="/home">Home</a>
+          <a onClick = {handleClick} href = "/about">About</a>
+          <a onClick = {handleClick} href = "/post">Post</a>
+        </nav>
         <h1>Picasso</h1>
       </React.Fragment>
     )
