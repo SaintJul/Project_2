@@ -1,10 +1,11 @@
 import React,{useState} from 'react'
 import './App.css';
-import Header from './Components/Header'
+import Nav from './Components/Nav'
 import Statement from './Components/Statement'
 import FetchGet from './Components/FetchGet'
 import UserInfo from './Components/UserInfo'
 import {Switch, Route} from "react-router-dom"
+import Home from './Components/Home'
 
 
 
@@ -15,7 +16,7 @@ function App() {
 
   return (
     <React.Fragment> 
-      <Header changePage = {setPage}/>
+      <Nav changePage = {setPage}/>
         <Switch>          
           <Route path = "/about">
             <Statement/>
@@ -24,6 +25,9 @@ function App() {
             <FetchGet/>
             <UserInfo/> 
           </Route>  
+          <Route exact path = "/">
+            <Home/>
+          </Route>
         </Switch>     
     </React.Fragment>
   );
