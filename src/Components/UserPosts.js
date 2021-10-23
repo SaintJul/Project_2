@@ -12,7 +12,6 @@ function UserPosts(){
 
     
     function FetchUser(){
-        //console.log(`${user} #++++/---# ${link}`)
         useEffect(()=>{
             fetch("http://localhost:4000/Art")
             .then(r=>r.json())

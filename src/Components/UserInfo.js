@@ -1,8 +1,6 @@
 import React,{useState} from 'react'
 import UserPosts from './UserPosts'
 
-
-
 function UserInfo(){
 
     const [form, setForm] = useState({
