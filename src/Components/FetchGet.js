@@ -13,8 +13,7 @@ function FetchGet(){
     if(!pic) return <h3>Loading...</h3>
     
     return (
-      <React.Fragment>
-        <h1>Hopefully this works</h1>
+      <React.Fragment>        
         <Post picInfo = {pic}/>
       </React.Fragment>
     )

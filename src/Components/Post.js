@@ -1,11 +1,44 @@
 import React from 'react'
+import {motion} from 'framer-motion'
+
+const divVariants = {  
+  hidden : {
+    x: "-100vw"
+  },
+  visible:{
+    x: 0 
+  }
+
+  // hover:{
+  //     scale:1.1,
+  //     transition:{
+  //         yoyo:Infinity
+  //     }
+  // }
+}
 
 function Post({picInfo}){    
     return(
-      <div id = "postDiv">
-        <h3 style ={{color:"rgb(168, 72, 50)"}}>{picInfo.name}</h3>
-        <img width = "350" height = "350" src = {picInfo.piece} alt = "Digital Art"/>
-      </div>
+      <motion.div 
+      variants = {divVariants}
+      initial = "hidden"
+      animate = "visible"
+      className = "container"
+      id = "postDiv"
+      >
+        <div id = "card">
+          <h2 style ={{color:"rgb(168, 72, 50)"}}>{picInfo.name}</h2>
+          <motion.img
+          whileHover = {{scale :1.1}}
+          
+          id = "post" 
+          width = "350" 
+          height = "350" 
+          src = {picInfo.piece} 
+          alt = "Digital Art"
+          />
+        </div>
+      </motion.div>
     )
   
   }

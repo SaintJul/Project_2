@@ -14,7 +14,7 @@
     {
       "id": 3,
       "name": "Roch",
-      "piece": "https://pbs.twimg.com/media/FBqsZ8aUUA8vFVO?format=jpg&name=900x900"
+      "piece": "https://pbs.twimg.com/media/FBwc4MaX0AMpJRc?format=jpg&name=900x900"
     },
     {
       "id": 4,
@@ -35,7 +35,40 @@
       "id": 7,
       "name": "Ian Woods",
       "piece": "https://pbs.twimg.com/media/FAOdtOIWUAYx2F6?format=jpg&name=small"
+    },
+    {
+      "id": 8,
+      "name": "Cory Van Lew",
+      "piece": "https://pbs.twimg.com/media/FASb_3xVEAEfy4K?format=png&name=small"
+    },
+    {
+      "id": 9,
+      "name": "Pwdro",
+      "piece": "https://pbs.twimg.com/media/FCKBFCcWYAYJJbN?format=jpg&name=900x900"
+    },
+    {
+      "id": 11,
+      "name": "Sam Spratt",
+      "piece": "https://pbs.twimg.com/media/FCEo4d5XEAILgI_?format=jpg&name=small"
+    },
+    {
+      "id": 12,
+      "name": "Jess",
+      "piece": "https://pbs.twimg.com/media/FB1rOPiakAAz2Wz?format=jpg&name=small"
+    },
+    {
+      "id": 13,
+      "name": "Cat",
+      "piece": "https://pbs.twimg.com/media/FBsP1htX0AkZSAv?format=jpg&name=900x900"
+    },
+    {
+      "id": 14,
+      "name": "Girlplastic",
+      "piece": "https://pbs.twimg.com/media/FB1ZsccWYAMzlRT?format=jpg&name=900x900"
     }
+    
+    
+    
     
   ]
 

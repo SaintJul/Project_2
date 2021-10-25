@@ -1,11 +1,24 @@
 body{
   text-align: center;
-  background-color: rgb(237, 224, 171)
+  background-color: rgb(245, 208, 108)
+}
+#card{
+  background-color: brown;
 }
 
 #nav{
-  background-color: rgb(145, 39, 39);
+  background-color: rgba(241, 138, 138, 0.26);
   overflow:hidden;
+} 
+
+#gif{
+  border-radius: 10%;
+}
+
+#post{
+   border-radius: 10%;
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(0, 0, 0, 0.24);
+  
 }
 
 #purpose{

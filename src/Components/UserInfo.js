@@ -1,5 +1,6 @@
 import React,{useState} from 'react'
 import UserPosts from './UserPosts'
+import {motion} from 'framer-motion'
 
 function UserInfo(){
 
@@ -47,16 +48,32 @@ function UserInfo(){
    
    return(
      <React.Fragment>
-     <h1>Post an Art piece you'd like to add</h1>
-     <form onSubmit = {handleSubmit}>      
-       <label >Username:</label>
-       <input type  ="text" name = "user" id = "name" value ={form.user} onChange = {handleChange}/>     
+        <h1>Post an art piece you'd like to add</h1>
+        <form onSubmit = {handleSubmit}>      
+            <label>Username:</label>
+            <input 
+             type  ="text" 
+             name = "user" 
+             id = "name" 
+             value ={form.user}
+            onChange = {handleChange}
+            />     
        
-       <label >    Link:</label>
-       <input type = "text" name = "link" id ="link" value = {form.link} onChange = {handleChange}/>
+            <label >    Link:</label>
+            <input 
+             type = "text" 
+             name = "link" 
+             id ="link" 
+             value = {form.link}
+              onChange = {handleChange}
+            />
  
-       <input value = "Submit" type ="submit"/>    
-     </form>
+            <motion.input
+             whileHover = {{scale :1.1}}
+             value = "Submit" 
+             type ="submit"
+             />    
+        </form>
      <UserPosts user = {form.user} link = {form.link}/>
     </React.Fragment>
     
