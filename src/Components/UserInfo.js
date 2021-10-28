@@ -48,9 +48,9 @@ function UserInfo(){
    
    return(
      <React.Fragment>
-        <h1>Post an art piece you'd like to add</h1>
+        <h3 className = "posts">Post an art piece you'd like to add</h3>
         <form onSubmit = {handleSubmit}>      
-            <label>Username:</label>
+            <label style = {{fontWeight: "bold"}} className = "posts">Username:</label>
             <input 
              type  ="text" 
              name = "user" 
@@ -59,7 +59,7 @@ function UserInfo(){
             onChange = {handleChange}
             />     
        
-            <label >    Link:</label>
+            <label style = {{fontWeight: "bold"}} className = "posts">    Link:</label>
             <input 
              type = "text" 
              name = "link" 

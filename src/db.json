@@ -8,8 +8,8 @@
     },
     {
       "id": 2,
-      "name": "Inkdoski",
-      "piece": "https://pbs.twimg.com/media/FBWj10hWYAY0CJl?format=jpg&name=900x900"
+      "name": "Andreszighelboim",
+      "piece": "https://pbs.twimg.com/media/FBXpJxVWEAskQh-?format=jpg&name=900x900"
     },
     {
       "id": 3,
@@ -38,13 +38,13 @@
     },
     {
       "id": 8,
-      "name": "Cory Van Lew",
-      "piece": "https://pbs.twimg.com/media/FASb_3xVEAEfy4K?format=png&name=small"
+      "name": "Horacio Quiroz",
+      "piece": "https://pbs.twimg.com/media/FBa_aNdXMAALKTX?format=jpg&name=small"
     },
     {
       "id": 9,
-      "name": "Pwdro",
-      "piece": "https://pbs.twimg.com/media/FCKBFCcWYAYJJbN?format=jpg&name=900x900"
+      "name": "Etiene Crauss",
+      "piece": "https://pbs.twimg.com/media/FBgzSHxX0AYrA0w?format=jpg&name=large"
     },
     {
       "id": 11,
@@ -65,6 +65,11 @@
       "id": 14,
       "name": "Girlplastic",
       "piece": "https://pbs.twimg.com/media/FB1ZsccWYAMzlRT?format=jpg&name=900x900"
+    },
+    {
+      "id": 15,
+      "name": "Mariusz Lewandoski",
+      "piece": "https://pbs.twimg.com/media/FBgRhr3WUAIrtUW?format=png&name=900x900"
     }
     
     

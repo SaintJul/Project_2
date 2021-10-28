@@ -20,6 +20,7 @@ function App() {
       <Nav changePage = {setPage}/>
         <Switch>          
           <Route path = "/about">
+            <Home/>
             <Statement/>
           </Route>
           <Route path = "/post">

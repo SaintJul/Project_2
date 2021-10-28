@@ -19,7 +19,12 @@ function Statement(){
         className = "container"
        id = "about"
        >
-        <p id= "purpose"> IMPORTANT MESSAGES</p>
+        <h5 id= "purpose"> Thanks to the growing interest of digital currencies
+          - collectors and enthusiasts alike have gravitated toward 
+          NFTS. Naturally, with the influx of cash, artists of every discipline hvae 
+          been encouraged to showcase their art. Click the post button to see afew
+          of my favorites.
+        </h5>
       </motion.div>
     )
   }

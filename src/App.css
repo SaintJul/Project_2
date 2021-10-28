@@ -2,8 +2,9 @@ body{
   text-align: center;
   background-color: rgb(245, 208, 108)
 }
-#card{
-  background-color: brown;
+
+.posts{
+ color: rgba(139, 32, 32, 0.795);
 }
 
 #nav{
@@ -12,17 +13,22 @@ body{
 } 
 
 #gif{
+  padding: 2px;
   border-radius: 10%;
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(0, 0, 0, 0.24)
 }
 
+
 #post{
+  padding : 2px;
    border-radius: 10%;
   box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(0, 0, 0, 0.24);
   
 }
 
 #purpose{
-  color: tomato
+  color: tomato;
+  text-align: center;  
 }
 
 #nav a{  
