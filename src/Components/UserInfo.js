@@ -18,9 +18,8 @@ function UserInfo(){
         const artObj = {           
                 id: user,
                 piece: art
-        }
-    
-       
+        }     
+        
         fetch("http://localhost:4000/Art",{
             method:"POST",
             headers:{
@@ -28,22 +27,19 @@ function UserInfo(){
             },
             body:JSON.stringify(artObj)
         })
-        .then(r=>r.json())
-        .then(data=> console.log(data)) 
+        .then(r=> r.json())
+        .then(data =>console.log(data))
         
     }  
 
     function handleChange(event){
         const name = event.target.name
-        const value = event.target.value
-        //console.log(event.target.name)
+        const value = event.target.value       
         setForm({...form,
         [name]:value
         })
         
     }
-
-    //console.log(form)
    
    
    return(

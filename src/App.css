@@ -3,6 +3,13 @@ body{
   background-color: rgb(245, 208, 108)
 }
 
+button{
+  color: rgb(0245, 102, 66);
+  border:none;
+  border:solid 2px rgb(231, 122, 71);
+  border-radius: 5px;
+  background: rgba(255, 255, 255,0);
+}
 .posts{
  color: rgba(139, 32, 32, 0.795);
 }

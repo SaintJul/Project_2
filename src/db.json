@@ -115,7 +115,79 @@
       "id": 20,
       "name": "Inkdoski",
       "piece": "https://pbs.twimg.com/media/FDNhJHcXEAccrf3?format=jpg&name=small"
+    },
+    {
+      "id": 21,
+      "name": "OtherWorld",
+      "piece": "https://pbs.twimg.com/media/E8NaKHsVIAEZWXW?format=jpg&name=large"
+    },
+    {
+      "id": 22,
+      "name": "OtherWorld",
+      "piece": "https://pbs.twimg.com/media/E8NaKHuVEAI71Zk?format=jpg&name=360x360"
+    },
+    {
+      "id": 23,
+      "name": "Addison Rodriguez",
+      "piece": "https://pbs.twimg.com/media/FDTVTHnWQA083kL?format=jpg&name=small"
+    },
+    {
+      "id": 24,
+      "name": "Claire Chesnut",
+      "piece": "https://pbs.twimg.com/media/FDXUlwZWUAg1sao?format=jpg&name=large"
+    },    
+    {
+      "id": 26,
+      "name": "Gabriel",
+      "piece": "https://pbs.twimg.com/media/FDssRpLWQAgwtC8?format=jpg&name=large"
+    },
+    {
+      "id": 27,
+      "name": "Kae",
+      "piece": "https://pbs.twimg.com/media/FDrcLH2VkA8tnRw?format=jpg&name=900x900"
+    },
+    {
+      "id": 28,
+      "name": "Huey",
+      "piece": "https://pbs.twimg.com/media/FDrdPDJX0AglsHd?format=jpg&name=small"
+    },
+    {
+      "id": 29,
+      "name": "Nathan",
+      "piece": "https://pbs.twimg.com/media/FDjw3mTXIAML0Ej?format=jpg&name=small"
+    },
+    {
+      "id": 30,
+      "name": "Arc",
+      "piece": "https://pbs.twimg.com/media/FDoHLuxX0AYecEF?format=jpg&name=900x900"
+    },
+    {
+      "id": 31,
+      "name": "UNKWN",
+      "piece": "https://pbs.twimg.com/media/E-UfvSyXoAEZhAT?format=jpg&name=4096x4096"
+    },
+    {
+      "id": 32,
+      "name": "RND",
+      "piece": "https://pbs.twimg.com/media/FDl5hxIWYAc0dH7?format=jpg&name=large"
+    },
+    {
+      "id": 33,
+      "name": "Mel",
+      "piece": "https://pbs.twimg.com/media/FDhoy7IX0AY-wfQ?format=jpg&name=900x900"
+    },
+    {
+      "id": 34,
+      "name": "Tye",
+      "piece": "https://pbs.twimg.com/media/FDisuljUYAA3Be2?format=jpg&name=large"
+    },
+    {
+      "id": 35,
+      "name": "Tye",
+      "piece": "https://pbs.twimg.com/media/FDisuljUYAA3Be2?format=jpg&name=large"
     }
+
+           
     
   ]
 

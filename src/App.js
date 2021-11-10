@@ -8,7 +8,14 @@ import {Switch, Route} from "react-router-dom"
 import Home from './Components/Home'
 
 
-
+function Links(){
+return(
+  <React.Fragment>
+    <a style = {{color : "tomato", fontSize : "18px", fontWeight:"bold"}} href = "https://github.com/SaintJul/Project_2">Github</a><br/>
+    <a style = {{color : "tomato", fontSize : "18px",  fontWeight:"bold"}} href = "https://favor-julius.medium.com/4d393ecad9b8">Medium</a>
+  </React.Fragment>
+)
+}
 
 
 
@@ -20,7 +27,7 @@ function App() {
       <Nav changePage = {setPage}/>
         <Switch>          
           <Route path = "/about">
-            <Home/>
+            <Home page = {page}/>
             <Statement/>
           </Route>
           <Route path = "/post">
@@ -29,6 +36,7 @@ function App() {
           </Route>  
           <Route exact path = "/">
             <Home/>
+            <Links/>
           </Route>
         </Switch>     
     </React.Fragment>
