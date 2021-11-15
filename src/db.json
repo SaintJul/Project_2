@@ -1,5 +1,4 @@
 {
-  
   "Art": [
     {
       "id": 1,
@@ -117,13 +116,9 @@
       "piece": "https://pbs.twimg.com/media/FDisuljUYAA3Be2?format=jpg&name=large"
     },
     {
-      "id": 35,
-      "name": "Tye",
-      "piece": "https://pbs.twimg.com/media/FDisuljUYAA3Be2?format=jpg&name=large"
+      "id": "https://pbs.twimg.com/media/FDZFQBUWUAYHneS?format=jpg&name=medium",
+      "name": "Julius",
+      "piece": "https://pbs.twimg.com/media/FDZFQBUWUAYHneS?format=jpg&name=medium"
     }
-
-           
-    
   ]
-
 }

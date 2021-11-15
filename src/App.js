@@ -1,8 +1,7 @@
-import React,{useState} from 'react'
+import React,{useState,useEffect} from 'react'
 import './App.css'
 import Nav from './Components/Nav'
 import Statement from './Components/Statement'
-import FetchMain from './Components/FetchMain'
 import UserInfo from './Components/UserInfo'
 import {Switch, Route} from "react-router-dom"
 import Home from './Components/Home'
@@ -20,19 +19,58 @@ return(
 
 // Organizes the project
 function App() {
-  const [page,setPage]  = useState("/")
+  const [pics, setPics] = useState("")
+
+function Post({pics}){
+  const picCards = pics.map((pic, index) =>(
+    <div className = "cardPosts" key = {index}>
+      <h3 className = "postsHeader">{pic.name}</h3>
+      <img id = "post"
+      width = "150" 
+      height = "150" 
+      alt = "api images"
+      src= {pic.piece}/>
+    </div>
+  ))
+
+  return(
+    <div>
+      {picCards}
+    </div>
+  )
+}
+
+
+  //Fetch for my favorite Artists data[Math.floor(Math.random()*data.length+0)])
+function FetchMain(){  
+  
+  useEffect(()=>{
+    fetch("http://localhost:3000/Art/?results=2")
+    .then(r=>r.json())
+    .then(data=> setPics(data))
+  },[])
+  
+  if(!pics) return <h3>Loading...</h3>
+  
+  return (
+    <React.Fragment>     
+      <h3>Art Pieces</h3>   
+      <Post pics = {pics}/>
+    </React.Fragment>
+  )
+}
 
   return (
     <React.Fragment> 
-      <Nav changePage = {setPage}/>
+      <Nav/>
         <Switch>          
           <Route path = "/about">
-            <Home page = {page}/>
+            <Home/>
             <Statement/>
           </Route>
           <Route path = "/post">
             <FetchMain/>
-            <UserInfo/> 
+            <UserInfo setPics = {setPics}/> 
           </Route>  
           <Route exact path = "/">
             <Home/>

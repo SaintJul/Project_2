@@ -1,5 +1,4 @@
 import React,{useState} from 'react'
-import UserPosts from './UserPosts'
 import {motion} from 'framer-motion'
 
 function UserInfo(){
@@ -21,7 +20,7 @@ function UserInfo(){
                 piece: art
         }     
         
-        fetch("http://localhost:4000/Art",{
+        fetch("http://localhost:3000/Art",{
             method:"POST",
             headers:{
                 "Content-Type":"application/json"
@@ -71,7 +70,7 @@ function UserInfo(){
              type ="submit"
              />    
         </form>
-     <UserPosts user = {form.user} link = {form.link}/>
+     
     </React.Fragment>
     
    )
