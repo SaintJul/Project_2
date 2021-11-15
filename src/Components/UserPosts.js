@@ -17,7 +17,6 @@ function PostInfo({info}){
             <h3 style = {{color : "rgb(168, 72, 50)"}}>{info.name}</h3>
             <motion.img 
                 whileHover = {{scale: .7}}
-
                 id = "post"
                 width = "340"
                 height = "340"            
@@ -39,7 +38,7 @@ function UserPosts(){
           }, [])      
           
           return (
-              <h3>Most Recent Post</h3>
+              <h3>Most Recent Post<br/> from: </h3>
           )
     }
     
