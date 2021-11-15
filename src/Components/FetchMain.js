@@ -1,8 +1,8 @@
 import React,{useEffect,useState} from 'react'
 import Post from './Post'
 
-
-function FetchGet(){
+//Fetch for my favorite Artists
+function FetchMain(){
   const [pic, setPic] = useState("")
     useEffect(()=>{
       fetch("http://localhost:3000/Art")
@@ -18,4 +18,4 @@ function FetchGet(){
       </React.Fragment>
     )
   }
-  export default FetchGet
+  export default FetchMain

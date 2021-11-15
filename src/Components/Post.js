@@ -16,7 +16,7 @@ const divVariants = {
   //     }
   // }
 }
-
+//Posts styles and presents the Randomized Art-piece
 function Post({picInfo}){    
     return(
       <motion.div 
@@ -29,7 +29,7 @@ function Post({picInfo}){
         <div id = "card">
           <h2 style ={{color:"rgb(168, 72, 50)"}}>{picInfo.name}</h2>
           <motion.img
-          whileHover = {{scale :1.1}}
+          whileHover = {{scale :.7}}
           
           id = "post" 
           width = "350" 

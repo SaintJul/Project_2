@@ -12,11 +12,6 @@
       "piece": "https://pbs.twimg.com/media/FCVTrItVIAAZytY?format=jpg&name=small"
     },
     {
-      "id": 3,
-      "name": "Roch",
-      "piece": "https://pbs.twimg.com/media/FBwc4MaX0AMpJRc?format=jpg&name=900x900"
-    },
-    {
       "id": 4,
       "name": "Glorie cœur",
       "piece": "https://pbs.twimg.com/media/FBWVFG5WEAQs2f8?format=jpg&name=small"
@@ -42,11 +37,6 @@
       "piece": "https://pbs.twimg.com/media/FBa_aNdXMAALKTX?format=jpg&name=small"
     },
     {
-      "id": 9,
-      "name": "Etiene Crauss",
-      "piece": "https://pbs.twimg.com/media/FBb3mRRWQAEmUV1?format=jpg&name=900x900"
-    },
-    {
       "id": 11,
       "name": "Sam Spratt",
       "piece": "https://pbs.twimg.com/media/FCEo4d5XEAILgI_?format=jpg&name=small"
@@ -57,11 +47,6 @@
       "piece": "https://pbs.twimg.com/media/FB1rOPiakAAz2Wz?format=jpg&name=small"
     },
     {
-      "id": 13,
-      "name": "Cat",
-      "piece": "https://pbs.twimg.com/media/FBsP1htX0AkZSAv?format=jpg&name=900x900"
-    },
-    {
       "id": 14,
       "name": "Girlplastic",
       "piece": "https://pbs.twimg.com/media/FB1ZsccWYAMzlRT?format=jpg&name=900x900"
@@ -70,16 +55,6 @@
       "id": 15,
       "name": "Mariusz Lewandoski",
       "piece": "https://pbs.twimg.com/media/FBgRhr3WUAIrtUW?format=png&name=900x900"
-    },
-    {
-      "id": 16,
-      "name": "Koedy",
-      "piece": "https://pbs.twimg.com/media/FCpD0BTVQAUVfq0?format=jpg&name=900x900"
-    }, 
-    {
-      "id": 17,
-      "name": "Zainah",
-      "piece": "https://pbs.twimg.com/media/FC_NnQqXIAg7NB3?format=jpg&name=900x900"
     },
     {
       "id": 18,
@@ -102,44 +77,9 @@
       "piece": "https://pbs.twimg.com/media/FDMBMBdXsAAR3nD?format=jpg&name=4096x4096"
     },
     {
-      "id": 22,
-      "name": "Leonrdo",
-      "piece": "https://pbs.twimg.com/media/FDI6kVhWYAI5zB7?format=jpg&name=900x900"
-    },
-    {
-      "id": 20,
-      "name": "Smile",
-      "piece": "https://pbs.twimg.com/media/FDORsNmXoAMqO_v?format=jpg&name=900x900"
-    },
-    {
       "id": 20,
       "name": "Inkdoski",
       "piece": "https://pbs.twimg.com/media/FDNhJHcXEAccrf3?format=jpg&name=small"
-    },
-    {
-      "id": 21,
-      "name": "OtherWorld",
-      "piece": "https://pbs.twimg.com/media/E8NaKHsVIAEZWXW?format=jpg&name=large"
-    },
-    {
-      "id": 22,
-      "name": "OtherWorld",
-      "piece": "https://pbs.twimg.com/media/E8NaKHuVEAI71Zk?format=jpg&name=360x360"
-    },
-    {
-      "id": 23,
-      "name": "Addison Rodriguez",
-      "piece": "https://pbs.twimg.com/media/FDTVTHnWQA083kL?format=jpg&name=small"
-    },
-    {
-      "id": 24,
-      "name": "Claire Chesnut",
-      "piece": "https://pbs.twimg.com/media/FDXUlwZWUAg1sao?format=jpg&name=large"
-    },    
-    {
-      "id": 26,
-      "name": "Gabriel",
-      "piece": "https://pbs.twimg.com/media/FDssRpLWQAgwtC8?format=jpg&name=large"
     },
     {
       "id": 27,
@@ -160,11 +100,6 @@
       "id": 30,
       "name": "Arc",
       "piece": "https://pbs.twimg.com/media/FDoHLuxX0AYecEF?format=jpg&name=900x900"
-    },
-    {
-      "id": 31,
-      "name": "UNKWN",
-      "piece": "https://pbs.twimg.com/media/E-UfvSyXoAEZhAT?format=jpg&name=4096x4096"
     },
     {
       "id": 32,

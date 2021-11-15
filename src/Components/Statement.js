@@ -9,7 +9,7 @@ const divVariants = {
     x: 0 
   }
 }
-
+// Paragraph explaining the purpose of the project
 function Statement(){
     return(
       <motion.div

@@ -1,9 +1,8 @@
 import React from 'react'
 import {NavLink} from 'react-router-dom'
 
-
+// Navigation Bar
 function Nav(){
-
     return(
       <React.Fragment>
         <nav id  = "nav">

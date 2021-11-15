@@ -15,8 +15,9 @@ function UserInfo(){
        const user =form.user
 
        
-        const artObj = {           
-                id: user,
+        const artObj = {
+                id: art,           
+                name: user,
                 piece: art
         }     
         

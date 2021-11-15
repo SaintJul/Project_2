@@ -1,16 +1,29 @@
 {
   "Art": [
     {
-      "id": "1",
+      "id": 1,
+      "name": "Tester",
       "piece": "https://pbs.twimg.com/media/FCEOq9UX0A8VZzA?format=jpg&name=large"
     },
     {
-      "id": "Mo",
+      "id": 2,
+      "name": "Mo",
       "piece": "https://pbs.twimg.com/media/E8NaKHsVIAEZWXW?format=jpg&name=large"
     },
     {
-      "id": "Liz",
+      "id": 3,
+      "name": "Liz",
       "piece": "adskfjkldfjlkdsaf"
+    },
+    {
+      "id": "https://pbs.twimg.com/media/FDZFQBUWUAYHneS?format=jpg&name=medium",
+      "name": "Julius",
+      "piece": "https://pbs.twimg.com/media/FDZFQBUWUAYHneS?format=jpg&name=medium"
+    },
+    {
+      "id": "https://pbs.twimg.com/media/FDoHLuxX0AYecEF?format=jpg&name=900x900",
+      "name": "Julius",
+      "piece": "https://pbs.twimg.com/media/FDoHLuxX0AYecEF?format=jpg&name=900x900"
     }
   ]
 }

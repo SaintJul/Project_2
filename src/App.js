@@ -2,12 +2,12 @@ import React,{useState} from 'react'
 import './App.css'
 import Nav from './Components/Nav'
 import Statement from './Components/Statement'
-import FetchGet from './Components/FetchGet'
+import FetchMain from './Components/FetchMain'
 import UserInfo from './Components/UserInfo'
 import {Switch, Route} from "react-router-dom"
 import Home from './Components/Home'
 
-
+//Posts Links to Github and Medium
 function Links(){
 return(
   <React.Fragment>
@@ -18,7 +18,7 @@ return(
 }
 
 
-
+// Organizes the project
 function App() {
   const [page,setPage]  = useState("/")
 
@@ -31,7 +31,7 @@ function App() {
             <Statement/>
           </Route>
           <Route path = "/post">
-            <FetchGet/>
+            <FetchMain/>
             <UserInfo/> 
           </Route>  
           <Route exact path = "/">
