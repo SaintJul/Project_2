@@ -10,7 +10,7 @@ const divVariants = {
       }
 }
 
-function Home(){
+function HomePage(){
     return(
         <motion.div
          variants = {divVariants}
@@ -25,4 +25,4 @@ function Home(){
     )
 
 }
-export default Home
+export default HomePage

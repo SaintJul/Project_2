@@ -4,9 +4,10 @@ import Nav from './Components/Nav'
 import Statement from './Components/Statement'
 import UserInfo from './Components/UserInfo'
 import {Switch, Route} from "react-router-dom"
-import Home from './Components/Home'
-
+import HomePage from './Components/HomePage'
+import {motion} from 'framer-motion'
 //Posts Links to Github and Medium
+
 function Links(){
 return(
   <React.Fragment>
@@ -23,20 +24,40 @@ function App() {
 
 function Post({pics}){
   const picCards = pics.map((pic, index) =>(
-    <div className = "cardPosts" key = {index}>
+    <motion.div  
+    whileHover = {{scale: 0.7}}   
+    className = "cardPosts" 
+    key = {index}>
       <h3 className = "postsHeader">{pic.name}</h3>
-      <img id = "post"
+      <img className = "cardPosts"
       width = "150" 
       height = "150" 
       alt = "api images"
       src= {pic.piece}/>
-    </div>
+    </motion.div>
   ))
 
   return(
-    <div>
+    <motion.div>
       {picCards}
-    </div>
+    </motion.div>
+  )
+}
+
+function RecentPost({pics}){
+
+  return(
+    <motion.div
+    >
+      <h3 className = "postsHeader">Post an art piece you'd like to add</h3>
+      <h3 className = "postsHeader">{pics[pics.length - 1].name}</h3>
+      <img src = {pics[pics.length-1].piece}
+      className = "FinalPost"
+      width = "340"
+      height = "340"
+      alt = "recent post"
+      />
+    </motion.div>
   )
 }
 
@@ -54,8 +75,9 @@ function FetchMain(){
   
   return (
     <React.Fragment>     
-      <h3>Art Pieces</h3>   
+      <motion.h3>Art Pieces</motion.h3>   
       <Post pics = {pics}/>
+      <RecentPost pics = {pics}/>
     </React.Fragment>
   )
 }
@@ -65,7 +87,7 @@ function FetchMain(){
       <Nav/>
         <Switch>          
           <Route path = "/about">
-            <Home/>
+            <HomePage/>
             <Statement/>
           </Route>
           <Route path = "/post">
@@ -73,7 +95,7 @@ function FetchMain(){
             <UserInfo setPics = {setPics}/> 
           </Route>  
           <Route exact path = "/">
-            <Home/>
+            <HomePage/>
             <Links/>
           </Route>
         </Switch>     

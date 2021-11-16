@@ -1,7 +1,7 @@
 import React,{useState} from 'react'
 import {motion} from 'framer-motion'
 
-function UserInfo(){
+function UserInfo({Pics, setPics}){
 
     const [form, setForm] = useState({
         user:"",
@@ -14,8 +14,7 @@ function UserInfo(){
        const user =form.user
 
        
-        const artObj = {
-                id: art,           
+        const artObj = {          
                 name: user,
                 piece: art
         }     
@@ -44,7 +43,6 @@ function UserInfo(){
    
    return(
      <React.Fragment>
-        <h3 className = "posts">Post an art piece you'd like to add</h3>
         <form onSubmit = {handleSubmit}>      
             <label style = {{fontWeight: "bold"}} className = "posts">Username:</label>
             <input 

@@ -21,7 +21,7 @@ function Statement(){
        >
         <h5 id= "purpose"> Thanks to the growing interest of digital currencies
           - collectors and enthusiasts alike have gravitated toward 
-          NFTS. Naturally, with the influx of cash, artists of every discipline hvae 
+          NFTS. Naturally, with the influx of cash, artists of every discipline have 
           been encouraged to showcase their art. Click the post button to see afew
           of my favorites.
         </h5>

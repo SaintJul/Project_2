@@ -14,10 +14,10 @@ body{
 .postsHeader{
  color: rgba(139, 32, 32, 0.795);
 }
-
-img{
-  width : 350;
-  height : 350;
+.FinalPost{
+  padding: 2px;
+  border-radius: 10%;
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(0, 0, 0, 0.24)
 }
 
 #nav{
@@ -29,14 +29,6 @@ img{
   padding: 2px;
   border-radius: 10%;
   box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(0, 0, 0, 0.24)
-}
-
-
-#post{
-  padding : 2px;
-   border-radius: 10%;
-  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(0, 0, 0, 0.24);
-  
 }
 
 #purpose{
