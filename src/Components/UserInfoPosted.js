@@ -1,6 +1,7 @@
 import React,{useState} from 'react'
 import {motion} from 'framer-motion'
 
+//
 function UserInfo({Pics, setPics}){
 
     const [form, setForm] = useState({
@@ -42,7 +43,7 @@ function UserInfo({Pics, setPics}){
    
    
    return(
-     <React.Fragment>
+     <div style ={{margin : "5px", margin : "5px", padding: "5px"}}>
         <form onSubmit = {handleSubmit}>      
             <label style = {{fontWeight: "bold"}} className = "posts">Username:</label>
             <input 
@@ -69,7 +70,7 @@ function UserInfo({Pics, setPics}){
              />    
         </form>
      
-    </React.Fragment>
+    </div>
     
    )
  }
