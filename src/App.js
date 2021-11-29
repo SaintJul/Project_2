@@ -8,21 +8,16 @@ import HomePage from './Components/HomePage'
 import {motion} from 'framer-motion'
 import Links from './Components/Links'
 
-//Posts Links to Github and Medium
-
-
-
-
 function App() {
   const [pics, setPics] = useState("")
 
 // Posts all the images
 function Post({pics}){
-  const picCards = pics.map((pic, index) =>(
+  const picCards = pics.map((pic) =>(
     <motion.div  
     whileHover = {{scale: 0.7}}   
     className = "cardPosts" 
-    key = {index}>
+    key = {pic.piece}>
       <h3 className = "postsHeader">{pic.name}</h3>
       <img className = "cardPosts"
       width = "150" 
@@ -46,8 +41,8 @@ function RecentPost({pics}){
     <motion.div
     >
       <h3 className = "postsHeader">Post an art piece you'd like to add</h3>
-      <h3 className = "postsHeader">{pics[pics.length - 1].name}</h3>
-      <img src = {pics[pics.length-1].piece}
+      <h3 className = "postsHeader">{pics[pics.length - 1].name}</h3>      
+      <img src = {pics[pics.length-1].piece} {/* posts the last image to show the in state */}
       className = "FinalPost"
       width = "340"
       height = "340"
@@ -58,7 +53,7 @@ function RecentPost({pics}){
 }
 
 
-  //Fetch for my favorite Artists data[Math.floor(Math.random()*data.length+0)])
+//Fetch for my favorite Artists data[Math.floor(Math.random()*data.length+0)])
 function FetchMain(){  
   
   useEffect(()=>{

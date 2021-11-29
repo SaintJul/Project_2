@@ -43,7 +43,7 @@ function UserInfo({Pics, setPics}){
    
    
    return(
-     <div style ={{margin : "5px", margin : "5px", padding: "5px"}}>
+     <div style ={{ margin : "5px", padding: "5px"}}>
         <form onSubmit = {handleSubmit}>      
             <label style = {{fontWeight: "bold"}} className = "posts">Username:</label>
             <input 

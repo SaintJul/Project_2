@@ -124,6 +124,77 @@
       "name": "Mark",
       "piece": "https://pbs.twimg.com/media/FEQ639cXoAEFRQS?format=jpg&name=large",
       "id": 36
+    },
+    {
+      "name": "David",
+      "piece": "https://pbs.twimg.com/media/FEPToQzUYAERBN1?format=jpg&name=900x900",
+      "id": 37
+    },
+    {
+      "name": "MadWorld",
+      "piece": "https://pbs.twimg.com/media/FEqh0ELXoAQnGzT?format=jpg&name=900x900",
+      "id": 38
+    },
+    {
+      "name": "Claire Chesnut",
+      "piece": "https://pbs.twimg.com/media/FEvarOIUcAAHO9B?format=jpg&name=900x900",
+      "id": 39
+    },
+    {
+      "name": "Antonio J. Aincough",
+      "piece": "https://pbs.twimg.com/media/FEuxuNIX0AUOWfy?format=jpg&name=large",
+      "id": 40
+    },
+    {
+      "name": "Annihilatia",
+      "piece": "https://pbs.twimg.com/media/FEwZD1FWYAYDH2l?format=jpg&name=4096x4096",
+      "id": 41
+    },
+    {
+      "name": "Dusty Ray",
+      "piece": "https://pbs.twimg.com/media/FEgvCGVUcAAsNeP?format=jpg&name=900x900",
+      "id": 42
+    },
+    {
+      "name": "Kip Smitty",
+      "piece": "https://pbs.twimg.com/media/FEgKVdlXoAI8_jt?format=jpg&name=large",
+      "id": 42
+    },
+    {
+      "name": "Milton Sanz",
+      "piece": "https://pbs.twimg.com/media/FEZjAbRXMAUKbsU?format=jpg&name=900x900",
+      "id": 43
+    },
+    {
+      "name": "Zach Thompson",
+      "piece": "https://pbs.twimg.com/media/FE68GV2XwAAtZnz?format=jpg&name=large",
+      "id": 45
+    },
+    {
+      "name": "Karan",
+      "piece": "https://pbs.twimg.com/media/FE7NTJ6XEAggo2-?format=jpg&name=900x900",
+      "id": 46
+    },
+    {
+      "name": "Tori",
+      "piece": "https://pbs.twimg.com/media/FE5b6poXIAIJs4K?format=jpg&name=small",
+      "id": 47
+    },
+    {
+      "name": "Rose Hill",
+      "piece": "https://pbs.twimg.com/media/FE6Ji3JVEAYO4cJ?format=jpg&name=4096x4096",
+      "id": 48
+    },
+    {
+      "name": "Shiiooku",
+      "piece": "https://pbs.twimg.com/media/FE1OVKVXwAYPYig?format=jpg&name=small",
+      "id": 49
+    },
+    {
+      "name": "Glorie cœur",
+      "piece": "https://pbs.twimg.com/media/FE0UXAFXoAYQWE_?format=jpg&name=small",
+      "id": 50
     }
+
   ]
 }
