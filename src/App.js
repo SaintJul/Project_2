@@ -41,8 +41,9 @@ function RecentPost({pics}){
     <motion.div
     >
       <h3 className = "postsHeader">Post an art piece you'd like to add</h3>
-      <h3 className = "postsHeader">{pics[pics.length - 1].name}</h3>      
-      <img src = {pics[pics.length-1].piece} {/* posts the last image to show the in state */}
+      <h3 className = "postsHeader">{pics[pics.length - 1].name}</h3>   
+      {/* posts the last image to show the in state */}
+      <img src = {pics[pics.length-1].piece} 
       className = "FinalPost"
       width = "340"
       height = "340"
