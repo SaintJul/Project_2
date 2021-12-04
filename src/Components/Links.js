@@ -10,6 +10,7 @@ const divVariants = {
       }
 }
 
+//posts links on Home page
 function Links(){
     return(
       <motion.div

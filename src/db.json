@@ -116,11 +116,6 @@
       "piece": "https://pbs.twimg.com/media/FDisuljUYAA3Be2?format=jpg&name=large"
     },
     {
-      "name": "Julius",
-      "piece": "https://pbs.twimg.com/media/FEROKZqXwAEJqrc?format=jpg&name=900x900",
-      "id": 35
-    },
-    {
       "name": "Mark",
       "piece": "https://pbs.twimg.com/media/FEQ639cXoAEFRQS?format=jpg&name=large",
       "id": 36
@@ -194,7 +189,11 @@
       "name": "Glorie cœur",
       "piece": "https://pbs.twimg.com/media/FE0UXAFXoAYQWE_?format=jpg&name=small",
       "id": 50
+    },
+    {
+      "name": "Julius",
+      "piece": "https://pbs.twimg.com/media/FFnS96qXoA4D53q?format=jpg&name=small",
+      "id": 51
     }
-
   ]
 }
