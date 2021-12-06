@@ -66,16 +66,16 @@ function FetchMain(){
   if(!pics) return <h3>Loading...</h3>
   
   return (
-    <React.Fragment>     
+    <>     
       <motion.h3>Art Pieces</motion.h3>   
       <Post pics = {pics}/>
       <RecentPost pics = {pics}/>
-    </React.Fragment>
+    </>
   )
 }
 
   return (
-    <React.Fragment> 
+    <> 
       <Nav/>
         <Switch>          
           <Route path = "/about">
@@ -91,7 +91,7 @@ function FetchMain(){
             <Links/>
           </Route>
         </Switch>     
-    </React.Fragment>
+    </>
   );
 }
 
